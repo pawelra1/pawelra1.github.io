@@ -1,0 +1,110 @@
+.box {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.box-small {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 100;
+}
+
+.circle {
+    border-radius: 50%;
+	width: 100px;
+	height: 100px;
+    position: relative;
+    z-index: 200;
+    border-bottom-color: black;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#box-red {   
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+#box-blue {
+    background-color: blue;
+    left: 205px;
+    top: 0;
+}
+#box-green {
+    background-color: green;
+    right: -10px;
+    top: 0;
+
+}
+#box-yellow {
+    background-color: yellow;
+    left: 0;
+    top: 205px;
+
+}
+#box-black {
+    background-color: black;
+    left: 205px;
+    top: 205px;
+
+}
+#box-orange {
+    background-color: orange;
+    right: -10px;
+    top: 205px;
+}
+#box-violet {
+    background-color: darkorchid;
+    left: 0;
+    bottom: -10px;
+}
+#box-gray {
+    background-color: gray;
+    left: 205px;
+    bottom: -10px;
+}
+#box-pink {
+    background-color: pink;
+    right: -10px;
+    bottom: -10px;
+}
+
+#circle-pink {
+    background-color: pink;
+}
+#circle-gray {
+    background-color: gray;
+}
+#circle-violet {
+    background-color: darkorchid;
+}
+#circle-green {
+    background-color: green;
+}
+#circle-red {
+    background-color: red;
+}
+#circle-blue {
+    background-color: blue;
+}
+#circle-green {
+    background-color: green;
+}
+#circle-orange {
+    background-color: orange;
+}
+#circle-yellow {
+    background-color: yellow;
+}
+#circle-black {
+    background-color: black;
+}
+
+
+
+
+

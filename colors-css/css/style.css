@@ -1,0 +1,35 @@
+﻿body {
+    margin: 0;
+}
+section {
+    background-color: red;
+}
+
+section:nth-child(2) {
+    background-color: #00ff00;
+}
+
+section:nth-child(3) {
+    background-color: rgba(0,0,255);
+}
+
+/*rgba robi przeźroczystość*/
+
+#popup {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+}
+/*transform wyśrodkowuje dziecko*/
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

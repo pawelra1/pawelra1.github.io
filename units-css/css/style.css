@@ -1,0 +1,36 @@
+.unit {
+    height: 20px;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+#px {
+    width: 200px;
+}
+
+.units {
+    font-size: 20px;
+    width: 600px;
+}
+
+
+#em {
+    width: 12.5em;
+}
+
+#percent {
+    width: 30%;
+}
+
+#vh {
+    width: 50vh;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
