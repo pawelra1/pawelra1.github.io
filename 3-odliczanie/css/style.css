@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-size: 100px;
+    color: #fff;
+}
+
+.counter {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.number {
+    position: absolute;
+
+}
